@@ -17,6 +17,11 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
 
+  @media (min-width: 768px) {
+    background-image: url(${fixedBackgroundBanner});
+    background-position: center;
+  }
+
   .video {
     width: 100%;
     max-width: 492px;
