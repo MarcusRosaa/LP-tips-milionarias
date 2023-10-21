@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 import backgroundImg from '../../assets/celebration.jpg'
 
 export const Container = styled.div`
-  padding: 64px 24px 0px 24px;
+  padding: 64px 24px 20px 24px;
   background-image: url(${backgroundImg});
   background-position: center center;
   background-repeat: no-repeat;
