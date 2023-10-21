@@ -14,6 +14,7 @@ export const Container = styled.div`
   @media (min-width: 768px) {
     padding-left: 60px;
     padding-right: 60px;
+    background-attachment: fixed;
   }
 `
 export const Wrapper = styled.div`

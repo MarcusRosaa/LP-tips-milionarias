@@ -20,6 +20,7 @@ export const Container = styled.div`
   @media (min-width: 768px) {
     background-image: url(${fixedBackgroundBanner});
     background-position: center;
+    background-attachment: fixed;
   }
 
   .video {
