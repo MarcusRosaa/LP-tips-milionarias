@@ -15,10 +15,16 @@ const GlobalStyles = createGlobalStyle`
   h1,h2,h3,
   h4,h4,h6 {
     font-family: 'Teko', sans-serif;
+    font-weight: 500;
   }
 
   p, a, button {
     font-family: 'Ubuntu', sans-serif;
+  }
+
+  button {
+    border: none;
+    cursor: pointer;
   }
 
   a {

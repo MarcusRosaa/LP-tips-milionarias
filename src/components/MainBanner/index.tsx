@@ -11,9 +11,11 @@ export const MainBanner = () => {
       </div>
       <div className="video"></div>
       <ButtonContainer>
-        <button>
-          SAIBA MAIS
-        </button>
+        <a href="https://google.com.br">
+          <button>
+            SAIBA MAIS
+          </button>
+        </a>
       </ButtonContainer>
     </Container>
   )
