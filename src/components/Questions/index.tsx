@@ -1,5 +1,5 @@
 import { Container, Wrapper, Description, QuestionsWrapper, Question, Image, ShadowLayer } from "./styles"
-import messiImg from '../../assets/messi.png'
+import logo from '../../assets/logo.png'
 
 export const Questions = () => {
   return (
@@ -30,7 +30,7 @@ export const Questions = () => {
         </QuestionsWrapper> 
       </div>
         <Image>
-          <img src={messiImg} alt="Jogador messi driblando" />
+          <img src={logo} alt="Logo Tips Milionárias" />
         </Image>
       </Wrapper>
       <ShadowLayer className="shadow"/>

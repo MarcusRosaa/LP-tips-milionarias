@@ -1,7 +1,5 @@
 import { styled } from "styled-components";
 import backgroundImg from '../../assets/celebration.jpg'
-import ring from '../../assets/ring-stroke.svg'
-
 
 export const Container = styled.div`
   padding: 64px 24px 0px 24px;
@@ -111,12 +109,7 @@ export const Image = styled.div`
 
   margin-top: 45px;
 
-  background-image: url(${ring});
-  background-repeat: no-repeat;
-  background-position: top center;
-
   @media (min-width: 768px) {
-    background-position: center;
     margin-top: 0;
     width: 35%;
   }
@@ -124,7 +117,7 @@ export const Image = styled.div`
   img {
     width: 85%;
     height: auto;
-    max-width: 270px;
+    max-width: 300px;
 
     @media (min-width: 768px) {
       width: 100%;

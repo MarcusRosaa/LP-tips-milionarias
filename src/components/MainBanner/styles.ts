@@ -7,15 +7,16 @@ export const Container = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center right;
-  height: calc(100vh - 200px);
+  height: calc(100vh - 80px);
   color: #FFF;
 
-  padding: 0 16px;
-
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  position: relative;
+
+  padding: 0 16px;
 
   @media (min-width: 768px) {
     background-image: url(${fixedBackgroundBanner});
@@ -28,11 +29,6 @@ export const Container = styled.div`
     max-width: 492px;
     height: 276px;
     background-color: #CCC;
-  }
-
-  div:first-child {
-    display: flex;
-    align-items: center;
   }
 
   h1 {
@@ -48,11 +44,27 @@ export const Container = styled.div`
     margin-right: 8px;
     margin-bottom: 6px;
 
-  @media (min-width: 768px) {
-    width: 75px;
-    height: 75px;
-    margin-bottom: 12px;
+    @media (min-width: 768px) {
+      width: 75px;
+      height: 75px;
+      margin-bottom: 12px;
+    }
   }
+`
+export const Wrapper = styled.div`
+  position: relative;
+  z-index: 2;
+
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  div:first-child {
+    display: flex;
+    align-items: center;
   }
 `
 
@@ -67,3 +79,16 @@ export const ButtonContainer = styled.div`
     font-weight: 500;
   }
 `;
+
+export const ShadowLayer = styled.div`
+  background-color: rgba(0,0,0,0.7);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  transition: ease-in 0.3s; 
+`
