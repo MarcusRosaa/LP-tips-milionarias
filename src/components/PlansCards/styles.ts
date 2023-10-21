@@ -44,7 +44,7 @@ export const Wrapper = styled.div`
   &:hover {
     .shadow {
       background-color: #1E1810;
-      opacity: 0.7;
+      opacity: 0.8;
     }
   }
 
