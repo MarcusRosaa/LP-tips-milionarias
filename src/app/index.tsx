@@ -4,6 +4,8 @@ import { MainBanner } from "../components/MainBanner"
 import { Plans } from "../components/Plans"
 import { Questions } from "../components/Questions"
 import { ClientsResults } from "../components/ClientsResults"
+import { Footer } from "../components/Footer"
+
 
 export const App = () => {
   return (
@@ -16,6 +18,7 @@ export const App = () => {
       <Questions />
       <ClientsResults />
       <Plans />
+      <Footer />
     </>
   )
 }
