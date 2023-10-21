@@ -1,4 +1,5 @@
 import { ButtonContainer, Container } from "./styles"
+import { Link } from 'react-scroll';
 
 import logo from '../../assets/logo.png';
 
@@ -11,11 +12,11 @@ export const MainBanner = () => {
       </div>
       <div className="video"></div>
       <ButtonContainer>
-        <a href="https://google.com.br">
+        <Link to="about-container" smooth={true} duration={500}>
           <button>
             SAIBA MAIS
           </button>
-        </a>
+        </Link>
       </ButtonContainer>
     </Container>
   )

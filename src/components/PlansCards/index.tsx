@@ -26,7 +26,7 @@ export const PlansCards = () => {
           <Installments>ou 12x 39,86</Installments>
 
           <ButtonContainer>
-            <a href="https://google.com">
+            <a href="https://go.perfectpay.com.br/PPU38CNBB1C">
               <button>
                 COMPRAR
               </button>
@@ -62,7 +62,7 @@ export const PlansCards = () => {
           <Installments>ou 12x 39,86</Installments>
 
           <ButtonContainer>
-            <a href="https://google.com">
+            <a href="https://go.perfectpay.com.br/PPU38CNBI8O">
               <button>
                 COMPRAR
               </button>
