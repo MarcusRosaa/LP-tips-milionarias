@@ -1,9 +1,12 @@
 import { styled } from "styled-components";
 
 export const Container = styled.div`
-  padding: 64px 24px 64px 24px;
+  padding: 64px 24px 0px 24px;
 
-  
+  @media (min-width: 768px) {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
 `
 
 export const Wrapper = styled.div`
@@ -123,7 +126,7 @@ export const ResponsiveContainer = styled.div`
 `
 
 export const Guarantee = styled.div`
-  padding: 64px 0;
+  padding: 64px 0 0 0;
 
   @media (min-width: 1024px) {
     padding: 120px 0;
