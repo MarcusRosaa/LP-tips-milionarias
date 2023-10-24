@@ -28,7 +28,7 @@ export const Container = styled.div`
     }
   }
 
-  .list p:last-child {
+  .list .description-wrapper:last-child p {
     border: none
   }
 `
