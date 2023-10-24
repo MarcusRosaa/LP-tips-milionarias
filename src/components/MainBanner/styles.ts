@@ -26,9 +26,34 @@ export const Container = styled.div`
 
   .video {
     width: 100%;
-    max-width: 492px;
-    height: 276px;
-    background-color: #CCC;
+    max-width: 700px;
+    padding: 54% 0 0 0;
+    position: relative;
+
+    @media (min-width: 768px) {
+      height: 400px;
+      padding: 0;
+    }
+
+    iframe {
+      border: none;
+      border-radius: 12px;
+      border-color: #D5D5D5;
+      border-style: solid;
+      border-width: 4px;
+      background-color: #D5D5D5;
+      @media (min-width: 768px) {
+        border-width: 8px;
+        border-radius: 28px;
+      }
+    }
+
+    .thumbnail {
+      width: 100%;
+      height: auto;
+      margin: 0;
+      border-radius: 30px;
+    }
   }
 
   h1 {
@@ -91,4 +116,11 @@ export const ShadowLayer = styled.div`
   width: 100%;
   z-index: 1;
   transition: ease-in 0.3s; 
+`
+
+export const PlayVideo = styled.div`
+  border-style: solid;
+  border-width: 16px 0px 16px 26px;
+  border-color: transparent transparent transparent white;
+  margin-left: 6px;
 `
