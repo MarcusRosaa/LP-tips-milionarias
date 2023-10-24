@@ -57,17 +57,24 @@ export const Card = styled.div`
   position: relative;
   z-index: 2;
 
-  p {
-    display: flex;  
+  .description-wrapper {
+    display: flex;
     align-items: center;
+  }
 
-    div {
-      display: flex;
-    }
+  .icon-container {
+    display: flex;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
 
     svg {
       font-size: 22px;
     }
+  }
+
+  p {
+    display: flex;  
+    align-items: center;
   }
 `
 
